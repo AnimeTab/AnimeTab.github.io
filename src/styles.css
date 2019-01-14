@@ -1,0 +1,80 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto';
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+}
+
+.container-head {
+    display: flex;
+    height: 100%;
+}
+.left-container, .right-container {
+    margin: 0;
+    width: 50%;
+    height: 100%;
+}
+
+.left-container {
+    background-color: #F6B93B;
+}
+
+.left-container p {
+    margin-left: 50px;
+    color: white;
+}
+
+.right-container a {
+    margin-right: 50px;
+    margin-top: 20px; 
+    float: right;
+    clear: both;
+}
+
+.right-container p {
+    font-family: 'Playfair Display';
+    position: relative;
+    font-size: 3em;
+    color: #F6B93B;
+    left: 35%;
+    top: 32%;
+}
+
+.container-head img {
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+    top: 18%;
+    left: 6%;
+    -webkit-box-shadow: -14px 17px 16px 0px rgba(33,33,33,0.15);    
+    -moz-box-shadow: -14px 17px 16px 0px rgba(33,33,33,0.15);
+    box-shadow: -14px 17px 16px 0px rgba(33,33,33,0.15);
+    animation-duration: 2s;
+}
+
+.container-2 {
+    height: 100%;
+    text-align: center;
+}
+
+.container-2 p {
+    font-family: 'Playfair Display';
+    font-size: 2em;
+    margin-top: 70px;
+    color: #F6B93B;
+    line-height: 50px;
+}
+
+.owl-carousel {
+    margin-top: 6%;
+}
+.display{
+    height: 250px;
+}
+.quote {
+    padding-top: 5%;
+    word-wrap: break-word;
+}
