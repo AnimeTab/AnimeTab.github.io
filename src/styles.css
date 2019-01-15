@@ -39,10 +39,10 @@ html, body {
 .right-container p {
     font-family: 'Playfair Display';
     position: relative;
-    font-size: 3em;
+    font-size: 3.25em;
     color: #F6B93B;
     left: 35%;
-    top: 32%;
+    top: 40%;
 }
 
 .container-head img {
@@ -59,7 +59,7 @@ html, body {
 }
 
 .container-2 {
-    height: 100%;
+    height: 550px;
     text-align: center;
 }
 
@@ -71,19 +71,43 @@ html, body {
 
 .container-2 > p {
     margin-top: 70px;
-    font-size: 2em;
+    font-size: 2.5em;
 }
 
 .item{
-    margin-top: 5%;
-    height: 250px;
+    margin-top: 70px;
+    height: 300px;
+    text-align: center;
 }
+
 .quote {
-    padding-top: 5%;
+    padding-top: 100px;
+    width: 50%;
+    margin: 0 auto;
     word-wrap: break-word;
-    font-size: 2em;
+    font-size: 2.25em;
 }
 
 .author {
+    margin-top: 20px;
     font-size: 1.5em;
+}
+
+.container-3 {
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+    height: 50%;
+}
+.container-3 p {
+    font-family: "Playfair Display";
+}
+
+.left {
+    width: 50%;
+    font-size: 2.2em;
+}
+
+.right {
+    width: 50%;
 }
