@@ -8,20 +8,4 @@ image.height = screen.height/(1.8)
 
 setTimeout(()=> {
     document.querySelector('body').style.overflowY = "auto"
-},3000)
-
-$(document).ready(()=>{
-    console.log("hey")
-    $('.owl-carousel').owlCarousel({
-        loop:true,
-        margin:10,
-        responsiveClass:true,
-        responsive:{
-            0:{
-                items:1,
-                nav:true
-            }
-        }
-    });
-});
-
+},2000)

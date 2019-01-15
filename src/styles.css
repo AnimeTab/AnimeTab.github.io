@@ -23,6 +23,7 @@ html, body {
 
 .left-container p {
     margin-left: 50px;
+    margin-top: 20px;
     color: white;
 }
 
@@ -31,6 +32,8 @@ html, body {
     margin-top: 20px; 
     float: right;
     clear: both;
+    text-decoration: none;
+    color: #5D5A5A
 }
 
 .right-container p {
@@ -62,19 +65,25 @@ html, body {
 
 .container-2 p {
     font-family: 'Playfair Display';
-    font-size: 2em;
-    margin-top: 70px;
     color: #F6B93B;
     line-height: 50px;
 }
 
-.owl-carousel {
-    margin-top: 6%;
+.container-2 > p {
+    margin-top: 70px;
+    font-size: 2em;
 }
-.display{
+
+.item{
+    margin-top: 5%;
     height: 250px;
 }
 .quote {
     padding-top: 5%;
     word-wrap: break-word;
+    font-size: 2em;
+}
+
+.author {
+    font-size: 1.5em;
 }
