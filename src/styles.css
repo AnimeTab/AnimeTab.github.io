@@ -118,3 +118,32 @@ footer {
 footer a {
     cursor: pointer;
 }
+
+@media (max-width: 500px) {
+    .container-head {
+        height: 50%;
+    }
+    .right-container > p {
+        font-size: 1em;
+    }
+    .line {
+        font-size: 1em;
+        line-height: 25px !important;
+    }
+    .quote {
+        font-size: 1em;
+        line-height: 25px !important;
+    }
+    .author {
+        font-size: 0.85em;
+    }
+    .container-3 {
+        margin-top: 0 !important;
+    }
+    .container-3 p {
+        font-size: 1.5em;
+    }
+    .directions {
+        width: 300px;
+    }
+}
